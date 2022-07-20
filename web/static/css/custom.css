@@ -1,0 +1,40 @@
+:root {
+  /* Primary color */
+  --th-primary-color: #F2E5DC;
+  --th-primary-dark-color: #180601;
+
+  /* Fonts */
+  --th-font-primary: 'Roboto', sans-serif;
+
+  /* Bootstrap */
+  --bs-body-font-family: var(--th-font-primary);
+  --bs-body-color: var(--th-primary-dark-color);
+  --bs-border-radius: 2rem;
+}
+
+.bg {
+  background-color: var(--th-primary-color);
+  border: 15px solid var(--th-primary-dark-color);
+}
+
+.display-1 {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 400;
+  line-height: 0.7;
+}
+
+.me-6 {
+  margin-right: 7rem !important;
+}
+
+.mt-7 {
+  margin-top: 10rem !important;
+}
+
+.mt-n7 {
+  margin-top: -10rem !important;
+}
+
+.ms-8 {
+  margin-left: 13rem !important;
+}
